@@ -1,30 +1,79 @@
-# Hi back
+# CPBuddy - Competitive Programming Dashboard
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+A modern, professional dashboard for tracking competitive programming progress across multiple platforms.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/harshdextr-7060s-projects/v0-hi-back)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/qMxkooDOsff)
+## Features
 
-## Overview
+- 🎯 **Multi-Platform Tracking** - LeetCode, CodeForces, CodeChef, AtCoder
+- 📊 **Beautiful Charts** - DSA breakdown, contest participation, rating progress
+- 🔥 **Activity Heatmap** - GitHub-style contribution tracking
+- 🏆 **Achievements System** - Unlock badges and track milestones
+- 🌙 **Dark Mode** - Professional dark/light theme support
+- 📱 **Responsive Design** - Works perfectly on all devices
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+## Tech Stack
 
-## Deployment
+- **React 18** with TypeScript
+- **Vite** for fast development and building
+- **Tailwind CSS** for styling
+- **Radix UI** for accessible components
+- **Recharts** for data visualization
+- **Lucide React** for icons
 
-Your project is live at:
+## Getting Started
 
-**[https://vercel.com/harshdextr-7060s-projects/v0-hi-back](https://vercel.com/harshdextr-7060s-projects/v0-hi-back)**
+1. **Clone the repository**
+   \`\`\`bash
+   git clone <your-repo-url>
+   cd cpbuddy-dashboard
+   \`\`\`
 
-## Build your app
+2. **Install dependencies**
+   \`\`\`bash
+   npm install
+   \`\`\`
 
-Continue building your app on:
+3. **Start development server**
+   \`\`\`bash
+   npm run dev
+   \`\`\`
 
-**[https://v0.dev/chat/projects/qMxkooDOsff](https://v0.dev/chat/projects/qMxkooDOsff)**
+4. **Build for production**
+   \`\`\`bash
+   npm run build
+   \`\`\`
 
-## How It Works
+## Project Structure
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+\`\`\`
+src/
+├── components/          # React components
+│   ├── ui/             # Reusable UI components
+│   ├── Header.tsx      # Navigation header
+│   ├── Sidebar.tsx     # User profile sidebar
+│   ├── Dashboard.tsx   # Main dashboard
+│   ├── Charts.tsx      # Chart components
+│   └── ...
+├── lib/                # Utilities and data
+│   ├── utils.ts        # Helper functions
+│   └── mock-data.ts    # Sample data
+├── App.tsx             # Main app component
+└── main.tsx           # App entry point
+\`\`\`
+
+## Customization
+
+- **Colors**: Modify `tailwind.config.ts` for custom color schemes
+- **Data**: Replace mock data in `src/lib/mock-data.ts` with real API calls
+- **Components**: All components are modular and easily customizable
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
+
+## License
+
+MIT License - feel free to use this project for your own competitive programming tracking needs!

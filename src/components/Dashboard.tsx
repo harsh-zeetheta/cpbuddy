@@ -1,11 +1,9 @@
-"use client"
-
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
+import { Card, CardContent, CardHeader, CardTitle } from "./ui/card"
+import { Badge } from "./ui/badge"
 import { Target, Calendar, BarChart3, Flame, TrendingUp, Users, Clock, Zap } from "lucide-react"
-import { ActivityHeatmap } from "./activity-heatmap"
-import { DSAProblemsChart, CPProblemsChart, ContestParticipationChart, RatingProgressChart } from "./charts"
-import { AchievementsBadges, PlatformRankings } from "./achievements-rankings"
+import { ActivityHeatmap } from "./ActivityHeatmap"
+import { DSAProblemsChart, CPProblemsChart, ContestParticipationChart, RatingProgressChart } from "./Charts"
+import { AchievementsBadges, PlatformRankings } from "./AchievementsRankings"
 import { heroStats } from "@/lib/mock-data"
 
 export function Dashboard() {

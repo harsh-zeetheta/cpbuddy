@@ -1,7 +1,5 @@
-"use client"
-
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
+import { Card, CardContent, CardHeader, CardTitle } from "./ui/card"
+import { Badge } from "./ui/badge"
 import { Calendar } from "lucide-react"
 import { generateHeatmapData } from "@/lib/mock-data"
 

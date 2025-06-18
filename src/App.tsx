@@ -1,11 +1,11 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { Header } from "./components/header"
-import { Sidebar } from "./components/sidebar"
-import { Dashboard } from "./components/dashboard"
+import { Header } from "./components/Header"
+import { Sidebar } from "./components/Sidebar"
+import { Dashboard } from "./components/Dashboard"
 
-export default function CPBuddyDashboard() {
+function App() {
   const [sidebarOpen, setSidebarOpen] = useState(false)
   const [darkMode, setDarkMode] = useState(false)
 
@@ -55,3 +55,5 @@ export default function CPBuddyDashboard() {
     </div>
   )
 }
+
+export default App

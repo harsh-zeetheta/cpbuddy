@@ -1,5 +1,3 @@
-"use client"
-
 import {
   PieChart,
   Pie,
@@ -15,8 +13,8 @@ import {
   Area,
   AreaChart,
 } from "recharts"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
+import { Card, CardContent, CardHeader, CardTitle } from "./ui/card"
+import { Badge } from "./ui/badge"
 import { TrendingUp, BarChart3, PieChartIcon, Activity } from "lucide-react"
 import { dsaBreakdown, cpBreakdown, contestData, ratingHistory } from "@/lib/mock-data"
 

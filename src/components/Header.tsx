@@ -1,15 +1,15 @@
 "use client"
 
 import { Moon, Sun, Menu, User, Settings, LogOut, Trophy, BarChart3, Calendar, UserCircle } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+import { Button } from "./ui/button"
+import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar"
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
+} from "./ui/dropdown-menu"
 import { mockUser } from "@/lib/mock-data"
 
 interface HeaderProps {
